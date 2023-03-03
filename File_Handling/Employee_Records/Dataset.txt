@@ -1,0 +1,5 @@
+1, John Hopkins, 98, 87, 90.
+2, Steve Hendricks, 99, 95, 98.
+3, Linda McCarthy, 75, 89, 100.
+4, Peter Evans, 88, 69, 93.
+5, Mary Jade, 97, 99, 90.

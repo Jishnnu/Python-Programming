@@ -7,4 +7,4 @@ while i <= 10:
     sum += i
     i += 1
 
-print("\nSUM OF FIRST 10 NATURAL NUMBERS :", sum)
+print("SUM OF FIRST 10 NATURAL NUMBERS :", sum)

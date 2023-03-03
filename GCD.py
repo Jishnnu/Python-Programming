@@ -14,7 +14,7 @@ def GCD(num1, num2):
     # Return the gcd of a and b
     return hcf
 
-n1 = int(input("\nENTER A NUMBER : "))
+n1 = int(input("ENTER A NUMBER : "))
 n2 = int(input("ENTER ANOTHER NUMBER : "))
 
 print(f"GCD({n1}, {n2}) = {GCD(n1, n2)}")

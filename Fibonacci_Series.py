@@ -8,7 +8,7 @@ def fibonacci(n):
     return fibonacci(n - 1) + fibonacci(n - 2)
 
 
-num = int(input("\nENTER A DIGIT : "))
+num = int(input("ENTER A DIGIT : "))
 
 if num < 0:
     print("FIBONACCI SERIES ACCEPTS NON-ZERO INPUTS ONLY")
@@ -18,7 +18,6 @@ print("FIBONACCI SERIES :")
 for i in range(num):
     if fibonacci(i) != -1:
         print(fibonacci(i))
-
 
 """
 ALTERNATIVE METHOD :

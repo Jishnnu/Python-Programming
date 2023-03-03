@@ -2,7 +2,7 @@
 Write a python program to check whether a given number is palindrome or not using a python program.
 
 """
-number = int(input("\nENTER A NUMBER : "))
+number = int(input("ENTER A NUMBER : "))
 
 if len(str(number)) == 1:
     print("THE NUMBER", number,"ONLY HAS A SINGLE DIGIT")

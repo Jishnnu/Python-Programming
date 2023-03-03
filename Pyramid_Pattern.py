@@ -8,7 +8,7 @@ Write a program that prints the following pyramid on the screen.
 
 """
 
-print("\nPYRAMID PATTERN :")
+print("PYRAMID PATTERN :")
 i = 1
 while i <= 5:
     j = 1

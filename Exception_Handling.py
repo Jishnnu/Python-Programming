@@ -1,16 +1,15 @@
 """
-Write a program to print the quotient and remainder of two values taken as input from the user. 
-Use Exception Handling to deal with common exceptions in the context of this program.
+Illustrate exception handling for Divide by zero error.
 
 """
 
 try:
-  numerator = int(input("ENTER NUMERATOR : "))
+  numerator = int(input("\nENTER NUMERATOR : "))
   denominator = int(input("ENTER DENOMINATOR : "))
   quotient = numerator / denominator
   remainder = numerator % denominator
 
-except (ValueError, ZeroDivisionError, TypeError, NameError, KeyboardInterrupt) as e:
+except ZeroDivisionError as e:
   print("\nEXCEPTION OCCURRED :\nDESCRIPTION :", e)
 
 except:
